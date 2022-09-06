@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Norse-Bold;
+  font-style: normal;
+  src: url("../fonts/Norse-Bold.otf");
+}
+:root {
+  font-family: Norse-Bold;
+}
