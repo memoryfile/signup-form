@@ -3,16 +3,71 @@
   font-style: normal;
   src: url("../fonts/Norse-Bold.otf");
 }
-:root {
+
+@font-face {
+  font-family: Roboto-Regular;
+  font-style: normal;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+
+#sidebar {
+  flex: 3;
   font-family: Norse-Bold;
 }
 
+#header,
+#form,
+#signup {
+  flex: 5;
+  /* flex-direction: column; */
+  font-family: Roboto-Regular;
+}
+
+#header {
+    flex: 1;
+}
+
+#form {
+    flex: 5;
+    flex-direction: column;
+}
+
+#signup {
+    flex: 1;
+}
+
 .logo {
-    background-image: url("../graphics/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0px;
-    margin: 0px;
-    width: 150px;
-    height: 50px;
+  display: flex;
+  height: 20vh;
+  /* width: 40vw; */
+  justify-content: center;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+}
+
+.logotext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sidebar {
+  background: url("../images/leaf.jpg") no-repeat top left;
+  overflow: hidden;
+  background-size: cover;
+  clear: both;
+  /* padding: 0px;
+  margin: 0px; */
 }
