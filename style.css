@@ -44,26 +44,48 @@ body {
 }
 
 #header {
-    flex: 1;
-    min-height: 20vh;
-    justify-content: end;
-    background-color: rgb(223, 217, 217);
-    flex-direction: column;
+  flex: 1;
+  min-height: 20vh;
+  justify-content: end;
+  background-color: rgb(223, 217, 217);
+  flex-direction: column;
+}
+
+#acc {
+  /* Source: Edit of Button 6 from https://getcssscan.com/css-buttons-examples */
+  background-color: rgba(5, 92, 13, 0.863);
+  border-radius: 8px;
+  border-width: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif; */
+  font-size: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 12px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 #form {
-    flex: 5;
-    min-height: 60vh;
-    flex-direction: column;
-    background-color: ghostwhite;
-    height: 20vh;
+  flex: 5;
+  min-height: 60vh;
+  flex-direction: column;
+  background-color: ghostwhite;
+  height: 20vh;
 }
 
 #signup {
-    flex: 1;
-    background-color: rgb(223, 217, 217);
-    height: 20vh;
-    flex-direction: column;
+  flex: 1;
+  background-color: rgb(223, 217, 217);
+  height: 20vh;
+  flex-direction: column;
 }
 
 .logo {
@@ -77,9 +99,9 @@ body {
 }
 
 .logotext {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #sidebar {
