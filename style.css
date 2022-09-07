@@ -47,7 +47,7 @@ body {
     flex: 1;
     min-height: 20vh;
     justify-content: end;
-    background-color: rgb(206, 197, 197);
+    background-color: rgb(223, 217, 217);
     flex-direction: column;
 }
 
@@ -61,7 +61,7 @@ body {
 
 #signup {
     flex: 1;
-    background-color: rgb(206, 197, 197);
+    background-color: rgb(223, 217, 217);
     height: 20vh;
     flex-direction: column;
 }
