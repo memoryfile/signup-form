@@ -30,7 +30,8 @@ body {
 }
 
 #sidebar {
-  flex: 3;
+  flex: 5;
+  min-width: 30vh;
   font-family: Norse-Bold;
 }
 
@@ -45,12 +46,10 @@ body {
 #header {
     flex: 1;
     background-color: blue;
-    height: 60vh;
     flex-direction: column;
 }
 
 #form {
-
     flex: 5;
     flex-direction: column;
     background-color: brown;
