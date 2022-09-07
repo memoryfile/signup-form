@@ -25,6 +25,10 @@ body {
   margin-top: 20vh;
 }
 
+.logotext {
+  padding: 1em;
+}
+
 #sidebar {
   flex: 3;
   font-family: Norse-Bold;
@@ -33,9 +37,8 @@ body {
 #header,
 #form,
 #signup {
-  flex: 5;
-  /* flex-direction: column; */
   font-family: Roboto-Regular;
+  padding: 1em;
 }
 
 #header {
@@ -66,7 +69,7 @@ body {
   justify-content: center;
   background-color: black;
   color: white;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .logotext {
