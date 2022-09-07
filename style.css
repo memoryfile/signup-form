@@ -37,6 +37,7 @@ body {
 #header,
 #form,
 #signup {
+  display: flex;
   font-family: Roboto-Regular;
   padding: 1em;
 }
@@ -49,6 +50,7 @@ body {
 }
 
 #form {
+
     flex: 5;
     flex-direction: column;
     background-color: brown;
