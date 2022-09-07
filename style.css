@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+.logo {
+  margin-top: 20vh;
+}
+
 #sidebar {
   flex: 3;
   font-family: Norse-Bold;
@@ -36,15 +40,23 @@ body {
 
 #header {
     flex: 1;
+    background-color: blue;
+    height: 60vh;
+    flex-direction: column;
 }
 
 #form {
     flex: 5;
     flex-direction: column;
+    background-color: brown;
+    height: 20vh;
 }
 
 #signup {
     flex: 1;
+    background-color:aqua;
+    height: 20vh;
+    flex-direction: column;
 }
 
 .logo {
