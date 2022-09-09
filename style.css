@@ -30,8 +30,8 @@ body {
 }
 
 #sidebar {
-  flex: 5;
-  min-width: 30vh;
+  min-width: 30vw;
+  flex: 0.3;
   font-family: Norse-Bold;
 }
 
