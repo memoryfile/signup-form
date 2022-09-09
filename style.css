@@ -23,14 +23,17 @@ body {
 
 .logo {
   margin-top: 20vh;
+  /* float: left; */
 }
 
 .logotext {
   padding: 1em;
+  float: left;
 }
 
 #sidebar {
   min-width: 30vw;
+  /* max-width: 30vw; */
   flex: 0.3;
   font-family: Norse-Bold;
 }
@@ -113,15 +116,33 @@ body {
   margin: 0px; */
 }
 
-
 .inputs {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
 }
 
-.inputcolumn1, .inputcolumn2 {
-  padding: 10px;
+.inputcolumn1,
+.inputcolumn2 {
+  padding: 40px;
   display: flex;
   flex-direction: column;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a:link, a:visited {
+  color: green;
+}
+
+a {
+  text-decoration: none;
 }
