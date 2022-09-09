@@ -27,29 +27,37 @@
     </div>
     <div id="nonsidebar">
       <div id="header">
-        <p>This is not a real online service.</p>
+        <p>
+          This is not a real online service. Do <i>not</i> put real information
+          into this form!
+        </p>
 
         <p>Sign up now!</p>
       </div>
       <div id="form">
+        <!-- include POST to some website? -->
         <div class="inputs">
-          <label for="first_name">First Name</label>
-          <input type="text" id="first_name" name="first_name" />
+          <div class="inputcolumn1">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" />
 
-          <label for="last_name">Last Name</label>
-          <input type="text" id="last_name" name="last_name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
+            <label for="user_password">Password</label>
+            <input type="password" id="user_password" name="password" />
+          </div>
 
-          <label for="phone_number">Phone Number</label>
-          <input type="tel" id="phone_number" name="phone_number" />
+          <div class="inputcolumn2">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" />
 
-          <label for="user_password">Password</label>
-          <input type="password" id="user_password" name="password" />
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" id="phone_number" name="phone_number" />
 
-          <label for="user_password">Confirm Password</label>
-          <input type="password" id="user_password" name="password" />
+            <label for="user_password">Confirm Password</label>
+            <input type="password" id="user_password" name="password" />
+          </div>
         </div>
       </div>
       <div id="signup">
