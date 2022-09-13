@@ -56,7 +56,7 @@ body {
 
 #acc {
   /* Source: Edit of Button 6 from https://getcssscan.com/css-buttons-examples */
-  background-color: rgba(5, 92, 13, 0.863);
+  background-color: #596D48;
   border-radius: 8px;
   border-width: 0;
   color: #ffffff;
@@ -140,7 +140,7 @@ label {
 }
 
 a:link, a:visited {
-  color: green;
+  color: #596D48;
 }
 
 a {
