@@ -56,7 +56,7 @@ body {
 
 #acc {
   /* Source: Edit of Button 6 from https://getcssscan.com/css-buttons-examples */
-  background-color: #596D48;
+  background-color: #596d48;
   border-radius: 8px;
   border-width: 0;
   color: #ffffff;
@@ -139,10 +139,25 @@ label {
   margin-bottom: 10px;
 }
 
-a:link, a:visited {
-  color: #596D48;
+a:link,
+a:visited {
+  color: #596d48;
 }
 
 a {
   text-decoration: none;
+}
+
+input {
+  border-color: #e5e7eb;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: rgba(0, 0, 255, 0.267);
+  box-shadow: #e5e7eb;
+}
+
+input:hover {
+  box-shadow: 0 0 2pt 0.5pt #D3D3D3;
 }
