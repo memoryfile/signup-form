@@ -174,3 +174,8 @@ label {
   font-size: 14px;
   font-family: Roboto-Mono;
 }
+
+.button1 {
+  padding: 20px;
+  margin-left: 10px;
+}
