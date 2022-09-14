@@ -82,18 +82,22 @@ body {
   touch-action: manipulation;
 }
 
-#form {
-  flex: 5;
-  min-height: 60vh;
+#inputs {
+  /* flex: 5; */
   flex-direction: column;
   background-color: ghostwhite;
-  height: 20vh;
+  height: 10000vh;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
 }
 
 #signup {
   flex: 1;
+  min-height: 20vh;
   background-color: rgb(223, 217, 217);
-  height: 20vh;
   flex-direction: column;
 }
 
@@ -130,9 +134,14 @@ body {
 
 .inputcolumn1,
 .inputcolumn2 {
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
+}
+
+.button1 {
+  padding: 20px;
+  margin-left: 10px;
 }
 
 label,
