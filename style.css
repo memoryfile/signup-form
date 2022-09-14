@@ -10,6 +10,13 @@
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-family: Roboto-Mono;
+  font-style: normal;
+  src: url("../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -63,8 +70,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-    sans-serif; */
   font-size: 16px;
   list-style: none;
   margin: 0;
@@ -150,8 +155,10 @@ a {
 }
 
 input {
+  border: 1px solid #ccc;
   border-color: #e5e7eb;
   border-radius: 5px;
+  box-shadow: #D3D3D3;
 }
 
 input:focus {
@@ -161,4 +168,9 @@ input:focus {
 
 input:hover {
   box-shadow: 0 0 2pt 0.5pt #D3D3D3;
+}
+
+label {
+  font-size: 14px;
+  font-family: Roboto-Mono;
 }
