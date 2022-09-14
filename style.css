@@ -127,8 +127,9 @@ body {
   flex-wrap: wrap;
 }
 
-.inputcolumn1 {
-  /* margin-top: 100px; */
+.inputcolumns {
+ display: flex;
+ flex-direction: row;
 }
 
 .inputcolumn1,
