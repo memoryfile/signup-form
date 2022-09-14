@@ -125,14 +125,19 @@ body {
 .inputs {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
+}
+
+.inputcolumn1 {
+  /* margin-top: 100px; */
 }
 
 .inputcolumn1,
 .inputcolumn2 {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  min-width: 20vw;
+  max-width: 40vw;
 }
 
 label,
