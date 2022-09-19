@@ -182,7 +182,11 @@ input:hover {
 }
 
 input:invalid {
-  border-color: red solid 3px;
+  border-color: rgba(255, 0, 55, 0.514);
+}
+
+input:valid {
+  border-color: rgba(37, 209, 37, 0.685);
 }
 
 label {

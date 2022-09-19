@@ -41,29 +41,34 @@
           <div class="inputcolumns">
           <div class="inputcolumn1">
             <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name" />
+            <input type="text" id="first_name" name="first_name" required minlength="2" maxlength="30" title="Please enter a valid first name. Example: Mei" placeholder="Mei"/>
             
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required title="Please enter a valid email. Example: mei@example.com" placeholder="mei@example.com"/>
+            <div id='email-error' class='error'></div>
 
-            <div class="password1">
-            <label for="user_password">Password</label>
-            <input type="password" id="user_password" name="password" />
+            <div class="password">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required
+            pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}' title="Please enter a password of at least 8 characters, an upper case letter, and a number. Example: Partycat87" placeholder="Password"/>
+            <div id='password-error' class='error'></div>
           </div>
           </div>
 
           <div class="inputcolumn2">
             <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name" />
+            <input type="text" id="last_name" name="last_name" required minlength="2" maxlength="30" title="Please enter a valid last name. Example: Ling Zhou" placeholder="Ling Zhou"/>
 
-            <label for="phone_number">Phone Number</label>
-            <input type="tel" id="phone_number" name="phone_number" required
-            pattern='[0-9]{10}'>
-            <div id='phone_error' class='error'></div>
+            <label for="phonenumber">Phone Number (optional)</label>
+            <input type="tel" id="phonenumber" name="phonenumber" optional
+            pattern='[0-9]{10}' title="Please enter a phone number of 10 digits. Example: 2124567890" placeholder="2124567890"/>
+            <div id="phone_error" class="error"></div>
 
             <div class="passwordC">
             <label for="user_password">Confirm Password</label>
-            <input type="password" id="passwordC" name="passwordC" />
+            <input type="password" id="passwordC" name="passwordC" required
+            pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}' title="Please enter a password of at least 8 characters, an upper case letter, and a number. Example: Partycat87" placeholder="Password"/>
+            <div id="passwordC-error" class="error"></div>
           </div>
           </div>
         </div>
