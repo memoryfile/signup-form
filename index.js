@@ -31,3 +31,5 @@ const phoneError = document.querySelector("#phone_error");
 // }
 
 // keyPress();
+
+/* <select onchange="checkValidity()" /> */
