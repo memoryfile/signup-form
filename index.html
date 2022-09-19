@@ -57,11 +57,13 @@
             <input type="text" id="last_name" name="last_name" />
 
             <label for="phone_number">Phone Number</label>
-            <input type="tel" id="phone_number" name="phone_number" />
+            <input type="tel" id="phone_number" name="phone_number" required
+            pattern='[0-9]{10}'>
+            <div id='phone_error' class='error'></div>
 
-            <div class="password2">
+            <div class="passwordC">
             <label for="user_password">Confirm Password</label>
-            <input type="password" id="user_password" name="password" />
+            <input type="password" id="passwordC" name="passwordC" />
           </div>
           </div>
         </div>

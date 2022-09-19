@@ -16,7 +16,6 @@
   src: url("../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf");
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -134,8 +133,8 @@ body {
 }
 
 .inputcolumns {
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .inputcolumn1,
@@ -170,7 +169,7 @@ input {
   border: 1px solid #ccc;
   border-color: #e5e7eb;
   border-radius: 5px;
-  box-shadow: #D3D3D3;
+  box-shadow: #d3d3d3;
 }
 
 input:focus {
@@ -179,7 +178,11 @@ input:focus {
 }
 
 input:hover {
-  box-shadow: 0 0 2pt 0.5pt #D3D3D3;
+  box-shadow: 0 0 2pt 0.5pt #d3d3d3;
+}
+
+input:invalid {
+  border-color: red solid 3px;
 }
 
 label {
